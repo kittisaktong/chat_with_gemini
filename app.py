@@ -2,7 +2,7 @@ import streamlit as st
 import google.generativeai as genai
 
 try:
-    key = st.secrets['gemini_api_key']
+    key = st.secrets['AIzaSyCDuVTryNatk92Qrjio1RF7k7506oQke-g']
     genai.configure(api_key=key)
     model = genai.GenerativeModel('gemini-2.0-flash-lite')
 
